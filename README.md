@@ -70,7 +70,11 @@
   - 60. Declaración de arreglos en JavaScript.
   - 61. Operaciones con arreglos.
 
-## 4. El navegador y Node.js
+---
+
+## Sección 1: Introducción al curso de JavaScript.
+
+### 4. El navegador y Node.js
 Instalación de NodeJS y NVM en Ubuntu WSL
 ```bash
 sudo apt-get install curl
@@ -79,7 +83,9 @@ nvm --version # Comprobar la versión instalada
 nvm install node # Instala Node
 ```
 
-## 12. Variables y tipos de datos.
+## Sección 2: Fundamentos de Programación en JavaScript
+
+### 12. Variables y tipos de datos.
 ![Variables y tipos de datos](recursos/12_01.png)
 ```javascript
 var primerNombre = 'Jask';
@@ -90,12 +96,12 @@ var indefinida;
 tieneTrabajo = null; // Reasignando valor a la variable "tieneTrabajo"
 ```
 
-## 13. Reglas en el uso de variables.
+### 13. Reglas en el uso de variables.
 - **Buena práctica**: siempre empezar con **minúsculas** las variables, y si es un nombre compuesto, la siguiente palabra empieza con mayúsculas. Ejemplo: **primerNombre**.
 - Existen **palabras reservadas** del propio lenguaje, como *function*, *if*, *while*, etc.
 - No se pueden definir números ni símbolos al comienzo de una variable, a **excepción** con dolar ($) o guión bajo (_).
 
-## 14. Comentarios en el código.
+### 14. Comentarios en el código.
 ```javascript
 // Esto es un comentario de una sola línea
 /*
@@ -105,14 +111,14 @@ varias líneas
 */
 ```
 
- ## 15. Conversión de variables.
+ ### 15. Conversión de variables.
  ```javascript
 var primerNombre, edad, sexo; // Declaración de 3 variables en una sola línea.
 primerNombre = 'Jask';
 sexo = 'indefinido';
 ```
 
-## 18. Operadores Lógicos
+### 18. Operadores Lógicos
 ```javascript
 var edad01 = 20;
 var edad02 = 18;
@@ -121,7 +127,7 @@ var mayorQue = edad01 > edad02; // True
 var menorQue = edad01 < edad02; // False
 var igualdad = edad01 == edad03; // True
 ```
-## 19. Operador typeof
+### 19. Operador typeof
 - Devuelve el tipo de variable que se le está pasando al operador.
 - **NO** es una función, por eso no se utilizan paréntesis.
 ```javascript
@@ -129,7 +135,7 @@ typeof edad01; // Number
 typeof 'Esto es un texto'; // String
 ```
 
-## 20. Operadores de incremento y decremento
+### 20. Operadores de incremento y decremento
 - Aumenta o disminuye en 1 el valor numérico de una varibale.
   - **Incremento**: ++
   - **Decremento**: --
@@ -141,10 +147,12 @@ var edad02 = 11;
 edad01++; // Equivale a 21
 edad02--; // Equivale a 10 
 ```
-## 33. Sentencias lógicas
+## Sección 4: Sentencias y bucles
+
+### 33. Sentencias lógicas
 ![Sentencias lógicas](recursos/33_01.png)
 
-## 34. Operador ternario
+### 34. Operador ternario
 ```javascript
 // Operadores ternario
 var nombre = 'Jask';
@@ -159,7 +167,7 @@ if(edad >= 18) {
 } 
 ```
 
-## 35. Sentencia Switch
+### 35. Sentencia Switch
 ```javascript
 // Sentencia switch
 var mes = 3;
@@ -178,14 +186,14 @@ switch(mes){
 }
 ```
 
-## 36. Sentencias For
+### 36. Sentencias For
 ```javascript
 for (var i=0; i<= 10; i++){
    console.log(i);
 }
 ```
 
-## 37. Sentencia while
+### 37. Sentencia while
 ```javascript
 var i = 0;
 while (i <= 10){
@@ -194,7 +202,7 @@ while (i <= 10){
 }
 ```
 
-## 38. Sentencia do..while
+### 38. Sentencia do..while
 - Comprueba la condición al **finalizar** el bucle.
 
 ```javascript
@@ -206,7 +214,9 @@ do {
 }while(i<= 10)
 ```
 
-## 44. Creando nuestra primera función
+## Sección 5: Funciones en JavaScript
+
+### 44. Creando nuestra primera función
 - **Functión**: operación que va a devolver un resultado.
 ```javascript
 function bienvenido(){
@@ -223,7 +233,7 @@ var mensaje = bienvenido2();
 console.log(mensaje);
 ```
 
-## 45. Argumentos en las funciones
+### 45. Argumentos en las funciones
 - Partes de una función
   - Parámetros: entradas
   - Código
@@ -241,7 +251,7 @@ console.log(valor);
 console.log(cuadradoNumero(5));
 ```
 
-## 46. Ejemplo: función convierte Fahrenheit a Celsius
+### 46. Ejemplo: función convierte Fahrenheit a Celsius
 ```javascript
 function convertirFAHaCelcius(gradoFah){
    var celsius = (gradoFah - 32) *  5 / 9;
@@ -253,7 +263,7 @@ console.log(temp1); // 0ºC
 var temp2 = convertirFAHaCelcius(68); 
 console.log(temp2); // 20ºC
 ```
-## 47. Ejemplo: función calcular edad
+### 47. Ejemplo: función calcular edad
 ```javascript
 function calcularEdad(anio){
    return 2020 - anio;
@@ -262,7 +272,7 @@ function calcularEdad(anio){
 var edad = calcularEdad(1990); // 30
 ```
 
-## 50. Funciones como expresiones
+### 50. Funciones como expresiones
 ```javascript
 var prueba = function(nombre){
    return 'Hola ' + nombre;
@@ -270,7 +280,7 @@ var prueba = function(nombre){
 
 console.log(prueba('Jask'));
 ```
-## 51. Argumentos no definidos (undefined)
+### 51. Argumentos no definidos (undefined)
 - El compilador separa un espacio en la memoria, tiene un puntero hacia la dirección de memoria pero no tiene ningún valor.
 ```javascript
 var nombre; // = 'Jask';
@@ -281,7 +291,7 @@ var prueba = function(n){
 console.log(prueba(nombre));
 ```
 
-## 52. Argumentos Nulos (Nulls)
+### 52. Argumentos Nulos (Nulls)
 - La variable apunta a un espacio de memoria pero con un valor **nulo**.
 - Puede usarse en un **IF**.
 ```javascript
@@ -294,7 +304,7 @@ var valorNulo = function(a) {
 console.log(valorNulo(a));
 ```
 
-## 53. Argumentos por defecto
+### 53. Argumentos por defecto
 ```javascript
 var sumar = function(a, b, c = 3){
    return a + b + c;
@@ -303,7 +313,7 @@ var sumar = function(a, b, c = 3){
 console.log(sumar(10,4)); // 17
 ```
 
-## 54. Plantillas de textos (Template strings)
+### 54. Plantillas de textos (Template strings)
 - Concatena partes de una cadena con una expresión.
 - Utiliza el símbolo del dolar al comienzo de la variable. Esta va entre llaves. 
 - Utiliza tildes invertidas al comienzo del string.
@@ -318,10 +328,12 @@ console.log('La suma es: ' + (a+b));
 console.log(`La suma es: ${a + b}`);
 ```
 
-## 59. ¿Qué es un Arreglo?
+## Sección 6: Arreglos y Objetos
+
+### 59. ¿Qué es un Arreglo?
 ![Arreglos - Arrays](recursos/59_01.png)
 
-## 60. Declaración de arreglos en JavaScript
+### 60. Declaración de arreglos en JavaScript
 ```javascript
 var nombres = ['Jask', 'Menéame', 'Feedly', 'Genbeta'];
 var vegetales = new Array('Tomate', 'Canónigos', 'Lechuga', 'Zanahorias');
@@ -330,7 +342,7 @@ console.log(nombres[0])
 console.log(nombres.length)
 console.log(vegetales[2])
 ```
-## 61. Operaciones con arreglos
+### 61. Operaciones con arreglos
 ```javascript
 var frutas = ['pera', 'manzana', 'plátano', 'kiwi']
 console.log(frutas);

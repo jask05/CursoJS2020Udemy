@@ -2,79 +2,79 @@
 
 # Índice
 
-1. **Sección 1: Introducción al curso de JavaScript.**
+- **Sección 1: Introducción al curso de JavaScript.**
+   - 1.1. Bienvenida al curso.
+   - 1.2. ¿Cómo hacer preguntas?
+   - 1.3. El editor de código
+   - 1.4. El navegador y Node.js
+   - 1.5. Incorporar código JavaScript
+   - 1.6. Ejecutar JavaScript en la terminal MAC.
+   - 1.7. Ejecutar JavaScript en la terminal Windows.
+   - 1.8. Cómo realizar el curso
+
+- **Sección 2: Fundamentos de Programación en JavaScript**
    
-   1. Bienvenida al curso.
-   2. ¿Cómo hacer preguntas?
-   3. El editor de código
-   4. El navegador y Node.js
-   5. Incorporar código JavaScript
-   6. Ejecutar JavaScript en la terminal MAC.
-   7. Ejecutar JavaScript en la terminal Windows.
-   8. Cómo realizar el curso
-2. **Sección 2: Fundamentos de Programación en JavaScript**
-   
-   9. Introducción
-   10. ¿Qué es Javascript?
-   11. Notas sobre JavaScript.
-   12. Variables y tipos de datos.
-   13. Reglas en el uso de variables.
-   14. Comentarios en el código.
-   15. Conversión de variables.
-   16. Mutación de variables.
-   17. Operadores matemáticos.
-   18. Operadores Lógicos.
-   19. Operador typeof.
-   20. Operadores de incremento y decremento.
-   21. Operadores de asignación.
-   22. Conoce más sobre los Operadores en JavaScript.
-   23. Ejercicio de codificación 1.
-   24. Solución al ejercicio de codificación 1.
-   25. La consola.
-   26. Recursos.
-3. **Sección 3: HTML5 y CSS3**
+   - 2.1. Introducción
+   - 2.2.  ¿Qué es Javascript?
+   - 2.3.  Notas sobre JavaScript.
+   - 2.4.  Variables y tipos de datos.
+   - 2.5.  Reglas en el uso de variables.
+   - 2.6.  Comentarios en el código.
+   - 2.7.  Conversión de variables.
+   - 2.8.  Mutación de variables.
+   - 2.9.  Operadores matemáticos.
+   - 2.10. Operadores Lógicos.
+   - 2.11. Operador typeof.
+   - 2.12. Operadores de incremento y decremento.
+   - 2.13. Operadores de asignación.
+   - 2.14. Conoce más sobre los Operadores en JavaScript.
+   - 2.15. Ejercicio de codificación 1.
+   - 2.16. Solución al ejercicio de codificación 1.
+   - 2.17. La consola.
+   - 2.18. Recursos.
+  
+- **Sección 3: HTML5 y CSS3**
+   - 3.1.  Introducción.
+   - 3.2.  Estructura de una página HTML5.
+   - 3.3.  Etiquetas.
+   - 3.4.  CSS.
+  
+- **Sección 4: Sentencias y bucles**
+   - 4.1.  Introducción.
+   - 4.2.  Sentencia if/else.
+   - 4.3.  Sentencias lógicas.
+   - 4.4.  Operador ternario.
+   - 4.5.  Sentencia Switch.
+   - 4.6.  Sentencias for.
+   - 4.7.  Sentencias while.
+   - 4.8.  Sentencias do..while.
+   - 4.9.  Valores verdaderos y falsos.
+   - 4.10. Ejercicio de codificación 2.
+   - 4.11. Solución al ejercicio de codificación 2.
+   - 4.12. Código de la sección.
+  
+- **Sección 5: Funciones en JavaScript**
+   - 5.1.  Introducción.
+   - 5.2.  Creando nuestra primera función.
+   - 5.3.  Argumentos en las funciones.
+   - 5.4.  Ejemplo: función convierte Fahrenheit a Celsius.
+   - 5.5.  Ejemplo: función calcular edad.
+   - 5.6.  Ejercicio de codificación 3.
+   - 5.7.  Solución al ejercicio de codificación 3.
+   - 5.8.  Funciones como expresiones.
+   - 5.9.  Argumentos no definidos (undefined).
+   - 5.10. Argumentos Nulos (Nulls).
+   - 5.11. Argumentos por defecto.
+   - 5.12. Plantillas de textos (Template strings).
+   - 5.13. Ejercicio de codificación 4.
+   - 5.14. Solución ejercicio codificación 4.
+   - 5.15. Código de la sección.
 
-   27. Introducción.
-   28. Estructura de una página HTML5.
-   29. Etiquetas.
-   30. CSS.
-4. **Sección 4: Sentencias y bucles**
-
-   31. Introducción.
-   32. Sentencia if/else.
-   33. Sentencias lógicas.
-   34. Operador ternario.
-   35. Sentencia Switch.
-   36. Sentencias for.
-   37. Sentencias while.
-   38. Sentencias do..while.
-   39. Valores verdaderos y falsos.
-   40. Ejercicio de codificación 2.
-   41. Solución al ejercicio de codificación 2.
-   42. Código de la sección.
-5. **Sección 5: Funciones en JavaScript**
-
-   43. Introducción.
-   44. Creando nuestra primera función.
-   45. Argumentos en las funciones.
-   46. Ejemplo: función convierte Fahrenheit a Celsius.
-   47. Ejemplo: función calcular edad.
-   48. Ejercicio de codificación 3.
-   49. Solución al ejercicio de codificación 3.
-   50. Funciones como expresiones.
-   51. Argumentos no definidos (undefined).
-   52. Argumentos Nulos (Nulls).
-   53. Argumentos por defecto.
-   54. Plantillas de textos (Template strings).
-   55. Ejercicio de codificación 4.
-   56. Solución ejercicio codificación 4.
-   57. Código de la sección.
-6. **Sección 6: Arreglos y Objetos**
-
-   58. Introducción.
-   59. ¿Qué es un Arreglo?
-   60. Declaración de arreglos en JavaScript.
-   61. Operaciones con arreglos.
+- **Sección 6: Arreglos y Objetos**
+   - 6.1.  Introducción.
+   - 6.2.  ¿Qué es un Arreglo?
+   - 6.3.  Declaración de arreglos en JavaScript.
+   - 6.4.  Operaciones con arreglos.
 
 ---
 

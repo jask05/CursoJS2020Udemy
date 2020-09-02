@@ -2,7 +2,8 @@
 
 # Índice
 
-- **Sección 1: Introducción al curso de JavaScript.**
+1. **Sección 1: Introducción al curso de JavaScript.**
+   
    1. Bienvenida al curso.
    2. ¿Cómo hacer preguntas?
    3. El editor de código
@@ -11,7 +12,8 @@
    6. Ejecutar JavaScript en la terminal MAC.
    7. Ejecutar JavaScript en la terminal Windows.
    8. Cómo realizar el curso
-- **Sección 2: Fundamentos de Programación en JavaScript**
+2. **Sección 2: Fundamentos de Programación en JavaScript**
+   
    9. Introducción
    10. ¿Qué es Javascript?
    11. Notas sobre JavaScript.
@@ -30,12 +32,14 @@
    24. Solución al ejercicio de codificación 1.
    25. La consola.
    26. Recursos.
-- **Sección 3: HTML5 y CSS3**
+3. **Sección 3: HTML5 y CSS3**
+
    27. Introducción.
    28. Estructura de una página HTML5.
    29. Etiquetas.
    30. CSS.
-- **Sección 4: Sentencias y bucles**
+4. **Sección 4: Sentencias y bucles**
+
    31. Introducción.
    32. Sentencia if/else.
    33. Sentencias lógicas.
@@ -48,7 +52,8 @@
    40. Ejercicio de codificación 2.
    41. Solución al ejercicio de codificación 2.
    42. Código de la sección.
-- **Sección 5: Funciones en JavaScript**
+5. **Sección 5: Funciones en JavaScript**
+
    43. Introducción.
    44. Creando nuestra primera función.
    45. Argumentos en las funciones.
@@ -64,11 +69,14 @@
    55. Ejercicio de codificación 4.
    56. Solución ejercicio codificación 4.
    57. Código de la sección.
-- **Sección 6: Arreglos y Objetos**
+6. **Sección 6: Arreglos y Objetos**
+
    58. Introducción.
    59. ¿Qué es un Arreglo?
    60. Declaración de arreglos en JavaScript.
    61. Operaciones con arreglos.
+
+---
 
 ## 4. El navegador y Node.js
 Instalación de NodeJS y NVM en Ubuntu WSL

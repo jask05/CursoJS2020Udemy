@@ -69,6 +69,15 @@
   - 59. ¿Qué es un Arreglo?
   - 60. Declaración de arreglos en JavaScript.
   - 61. Operaciones con arreglos.
+  - 62. Arreglos con datos de diferentes tipos.
+  - 63. Creando objetos de forma literal.
+  - 64. Creando objetos con la sintaxis Object.
+  - 65. Objetos y métodos.
+- **Sección 7: Manipulación del DOM**
+  - 66. Introducción.
+  - 67. ¿Qué es el DOM?
+  - 68. Creando el proyecto.
+  - 69. Examinando el DOM.
 
 ---
 
@@ -375,6 +384,63 @@ frutas.indexOf('plátano');
 // Eliminar elementos del array en cualquier posición
 frutas.splice(1,2); // Elimina la posición 1 y la 2
 ```
+
+### 63. Creando objetos de forma literal
+```javascript
+var persona  = {
+   // Propiedades o Atributos
+   nombre: 'Pablo',
+   apellido: 'González',
+   gustos: ['Fútbol', 'Películas', 'Series', 'Videojuegos'],
+   trabajo: 'Programador',
+   casado: true
+};
+
+console.log(persona)
+console.log(persona.apellido)
+console.log(persona['trabajo'])
+
+// Mutación
+persona.casado = false; // Se recomienda hacer desde el propio método.
+console.log(persona.casado);
+```
+
+### 64.Creando objetos con la sintaxis Object
+```javascript
+var persona = new Object();
+
+// Añadiendo Propiedades
+persona.nombre = 'Ana';
+persona.apellido = 'Ruíz';
+persona['trabajo'] = 'Developer';
+console.log(persona);
+```
+
+### 65. Objetos y métodos
+- Los **métodos** son funciones creadas **dentro de un objeto**. Al estar dentro de un objeto, se crean como métodos del objeto.
+- Se utiliza el operador **this** para no enviar parámetros por fuera de la función/método.
+```javascript
+var persona  = {
+   // Propiedades o Atributos
+    nombre: 'Ramiro',
+    apellido: 'González',
+    gustos: ['Fútbol', 'Películas', 'Series', 'Videojuegos'],
+    trabajo: 'Programador',
+    casado: true,
+    anioNacimiento: 1954,
+    
+    // Métodos
+    calcularEdad: function(){
+       return 2019 - this.anioNacimiento; // Utiliza el año de nacimiento dentro de la propiedad anioNacimiento
+    }
+};
+
+console.log(persona);
+var edad = persona.calcularEdad();
+console.log(edad);
+```
+
+## Sección 7: Manipulación del DOM
 
 # Bibliografía
 - [Instalación de NodeJS y NVM en WSL](https://docs.microsoft.com/es-es/windows/nodejs/setup-on-wsl2)
